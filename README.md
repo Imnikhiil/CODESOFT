@@ -4,7 +4,7 @@
 Welcome to my Level 1 project submissions for the CODESOFT Internship!  
 This repository contains three beginner-friendly yet impactful web development projects built using **HTML**, **CSS**, and **JavaScript**.
 
----
+
 
 ## 🚀 Level 1 - Task 1: Personal Portfolio Website
 
@@ -22,11 +22,7 @@ A fully responsive and animated personal portfolio website showcasing my skills,
 
 🔹 **Tech Used**: HTML5, CSS3 (Animations, Flexbox)
 
-🔹 **Live Preview**: [Click here to view](#)  
-🔹 **Screenshots**:  
-*Add screenshots here after uploading to the repo*
 
----
 
 ## 🖥️ Level 1 - Task 2: Landing Page
 
@@ -41,11 +37,7 @@ A creative and visually stunning landing page that demonstrates layout, design, 
 
 🔹 **Tech Used**: HTML5, CSS3
 
-🔹 **Live Preview**: [Click here to view](#)  
-🔹 **Screenshots**:  
-*Add screenshots here after uploading to the repo*
 
----
 
 ## 🧮 Level 1 - Task 3: Basic Calculator
 
@@ -59,13 +51,3 @@ A functional and responsive calculator web app supporting basic arithmetic opera
 - Built using JavaScript's event handling and logic
 
 🔹 **Tech Used**: HTML5, CSS Grid, JavaScript (DOM, if-else, functions)
-
-🔹 **Live Preview**: [Click here to view](#)  
-🔹 **Screenshots**:  
-*Add screenshots here after uploading to the repo*
-
----
-
-## 📂 Folder Structure
-
-
