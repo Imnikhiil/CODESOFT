@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikhil Kumar - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <h1 class="fade-in">Hi, I'm <span>Nikhil Kumar</span></h1>
+    <p class="fade-in delay1">A passionate tech explorer, web & Flutter developer, and innovation enthusiast.</p>
+    <a href="#contact" class="btn fade-in delay2">Let's Connect</a>
+  </header>
+
+  <section class="section fade-in" id="about">
+    <h2>About Me</h2>
+    <p>I’m currently pursuing a Diploma in Computer Engineering from DSEU Rajokari Campus. With a keen interest in real-world problem solving, I specialize in combining design and development to bring ideas to life. I enjoy working on projects that challenge me technically and creatively, and I actively contribute to innovation-based activities on my campus through leadership in the RC Innovation Club.</p>
+  </section>
+
+  <section class="section fade-in" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript, Flutter, Dart, Python, Arduino</li>
+      <li>Blender, GitHub, VS Code, Android Studio, Figma</li>
+      <li>Communication, Creative Thinking, Time Management, Leadership</li>
+    </ul>
+  </section>
+
+  <section class="section fade-in" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>RC Explore App:</strong> Flutter-based AR solution for college navigation and innovation showcase.</li>
+      <li><strong>3D Love Cube Website:</strong> Glowing animated effects with personalized interactions.</li>
+      <li><strong>AR Image Marker App:</strong> Persistent 3D model after scanning image.</li>
+      <li><strong>Gesture-Controlled Mouse:</strong> Using MPU6050 + Arduino.</li>
+      <li><strong>Raashi Finder Tool:</strong> Finds zodiac signs using name and DOB.</li>
+    </ul>
+  </section>
+
+  <section class="section fade-in" id="experience">
+    <h2>Experience</h2>
+    <p>I’ve worked for 8 months as a Data Entry Operator at Safdarjung Hospital (VMMC), and also completed international freelance data tasks. Currently interning with NITI Aayog, contributing to tech-driven development. I lead the RC Innovation Club, mentor juniors, organize workshops, and drive campus innovation efforts.</p>
+  </section>
+
+  <section class="section fade-in" id="education">
+    <h2>Education</h2>
+    <p>Diploma in Computer Engineering (2023–2026) from DSEU Rajokari Campus.  
+    12th – Govt Boys Sr. Sec School (CBSE) – 2022  
+    10th – Govt Co-ed Secondary School – 2020</p>
+  </section>
+
+  <section class="section fade-in" id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Cybersecurity (Skill India)</li>
+      <li>HTML (SoloLearn)</li>
+      <li>BCA Module (Amity University Online)</li>
+      <li>Data Science using Python – CETPA Infotech</li>
+    </ul>
+  </section>
+
+  <section class="section fade-in" id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Recognized by Shri Manish Sisodia for the RC Explore project</li>
+      <li>Selected for Smart Delhi Ideathon 2025</li>
+      <li>NSS and cultural event volunteer</li>
+      <li>Led 3D modeling and robotics workshops at campus</li>
+    </ul>
+  </section>
+
+  <section class="section fade-in" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:nsingh12414@gmail.com">imnikhilofficial@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/imnikhiil" target="_blank">github.com/imnikhiil</a></p>
+    <p>Instagram: <a href="https://instagram.com/imyournikhil" target="_blank">@imyournikhil</a></p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Nikhil Kumar</p>
+  </footer>
+
+  <script>
+    const fadeInEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    });
+    fadeInEls.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
